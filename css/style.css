@@ -3,7 +3,7 @@
   padding: 0;
   font-family: 'Roboto', sans-serif;
   box-sizing: border-box;
-  color: rgb(24, 24, 24)
+  color: rgb(24, 24, 24);
 }
 
 html body {
@@ -20,7 +20,7 @@ input:focus {
 }
 
 #container-registro {
-  max-width: 67vw;
+  max-width: 68vw;
   min-height: 80vh;
   margin: 8vh auto;
   display: flex;
@@ -50,3 +50,85 @@ input:focus {
   color: white;
 }
 
+#form-registro {
+  width: 50%;
+  background-color: #FDFDFD;
+  padding: 3%;
+  display: flex;
+  flex-direction: column;
+}
+
+#form-registro h2 {
+  text-align: center;
+  margin-bottom: 3vh;
+  font-size: 38px;
+}
+
+#form-registro p {
+  text-align: center;
+  margin-bottom: 3vh;
+  font-size: 16px;
+  color: rgb(146, 146, 146);
+}
+
+.formulario {
+  margin-bottom: 3vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.formulario label {
+  margin-bottom: 1.5vh;
+  font-weight: bold;
+}
+
+.formulario input {
+  border: none;
+  border-bottom: 1px solid #AAA;
+  padding: 1.5vh 0;
+  font-size: 15px;
+}
+
+#gerar-senha {
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+#gerar-senha:hover {
+  color: #0097ff;
+}
+
+#form-registro #senha-gerada {
+  border: 1px solid #0097ff;
+  border-radius: 4px;
+  font-weight: bold;
+  font-size: 18px;
+  padding: 3%;
+  text-align: center;
+  margin-bottom: 2vh;
+  display: none;
+}
+
+#form-registro #senha-gerada p {
+  color: #81d340;
+  margin-bottom: 1vh;
+}
+
+#form-registro input[type="submit"] {
+  background-color: #81d340;
+  color: #FFF;
+  opacity: 0.8;
+  border: none;
+  border-radius: 25px;
+  padding: 2.5vh 4vh;
+  max-width: 150px;
+  cursor: pointer;
+  align-self: flex-end;
+  transition: 0.4s;
+  font-size: 16px;
+}
+
+#form-registro input[type="submit"]:hover {
+  opacity: 1;
+}
