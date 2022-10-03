@@ -4,7 +4,7 @@
 
 ### Descrição:
 
-Projeto desenvolvido para estudo e fixação de conteúdos de Front-end, tais como Html, Css, Flexbox, javaScript, DOM.
+Projeto desenvolvido para estudo e fixação de conteúdos de Front-end, tais como Html, Css, Flexbox, javaScript e DOM.
 
 Aplicação com intuito de criar uma Gerador de senhas, Site onde você pode Gerar uma senha Aleatória e segura com apenas um clique.
 
