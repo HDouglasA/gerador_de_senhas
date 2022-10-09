@@ -8,7 +8,7 @@ Projeto desenvolvido para estudo e fixação de conteúdos de Front-end, tais co
 
 Aplicação com intuito de criar uma Gerador de senhas, Site onde você pode Gerar uma senha Aleatória e segura com apenas um clique.
 
-### Link surge:
+### Link:
 
 https://ignorant-ink.surge.sh/
 
